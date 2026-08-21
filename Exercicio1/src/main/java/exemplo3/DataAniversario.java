@@ -24,4 +24,12 @@ public class DataAniversario {
     public void setMes(int mes) {
         this.mes = mes;
     }
+    
+    public boolean equals(Object outraData){
+	    if (outraData instanceof DataAniversario){
+		    DataAniversario outraDataAniversario = (DataAniversario) outraData;
+		    return (outraDataAniversario.dia == this.dia && outraDataAniversario.mes == this.mes);
+	    }
+	    return false;
+	}
 }

@@ -42,6 +42,18 @@ public class TesteFuncionarios {
                 1500.00,// Bolsa auxílio
                 20      // Carga horária semanal
         );
+        
+        // 5. Instanciando o Gerente
+        Gerente f5 = new Diretor(
+                "Fernanda Gabriele", "D001",
+                8000.00,
+                LocalDate.parse("15/01/2008", dtf),
+                500.00, // VT
+                800.00, // VA
+                22,     // Equipe
+                25,     // 20% de bônus
+                10000   // O lucro
+        );
 
    
         
@@ -50,5 +62,6 @@ public class TesteFuncionarios {
         System.out.println(f2 + "\n");
         System.out.println(f3 + "\n");
         System.out.println(f4 + "\n");
+        System.out.println(f5 + "\n");
     }
 }

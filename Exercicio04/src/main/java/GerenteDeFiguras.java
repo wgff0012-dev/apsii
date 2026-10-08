@@ -28,7 +28,7 @@ public class GerenteDeFiguras  {
 	
 	public void imprimirFiguras() {
 		for (FiguraGeometrica fig : figuras) {
-			System.out.print(fig.getNomeFigura());
+			System.out.print("\n"+fig.getNomeFigura());
 		}
 	}
 	

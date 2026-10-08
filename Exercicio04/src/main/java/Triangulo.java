@@ -11,7 +11,7 @@ public class Triangulo implements FiguraGeometrica{
 	
 	@Override
 	public double calculaArea(){
-		return (this .base * this .altura)/2;
+		return (this.base * this.altura)/2;
 	}
 	
 	@Override
